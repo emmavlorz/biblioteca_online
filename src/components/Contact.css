@@ -1,0 +1,21 @@
+.contact {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    color: #556B2F;
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .contact p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact a {
+    color: #6B8E23; /* Verde claro */
+    text-decoration: underline;
+  }
+  

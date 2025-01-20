@@ -1,0 +1,48 @@
+.book-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .book-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-item strong {
+    font-size: 1.1em;
+  }
+  
+  .book-item p {
+    margin: 0 20px;
+    flex: 1;
+    color: #333;
+    text-align: left;
+  }
+  
+  .book-description {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #666; /* Color gris para diferenciar la descripción */
+    line-height: 1.4; /* Mejora la legibilidad */
+  }  
+
+  .book-item button {
+    padding: 10px 15px;
+    background-color: #556b2f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .book-item button:hover {
+    background-color: #6b8e23;
+  }
+  

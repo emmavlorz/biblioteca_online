@@ -1,0 +1,19 @@
+.book-item {
+    background-color: #F9F9F9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-item strong {
+    color: #556B2F; /* Verde olivo */
+    font-size: 1.2rem;
+  }
+  
+  .book-item p {
+    font-size: 1rem;
+    color: #555;
+  }
+  

@@ -1,0 +1,93 @@
+:root {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F5F5F5; /* Fondo claro */
+  color: #333; /* Texto oscuro */
+}
+
+body, html {
+  height: 100%; /* Asegura que la altura total se tome en cuenta */
+  margin: 0; /* Elimina márgenes predeterminados */
+  display: flex;
+  flex-direction: column; /* Orienta los elementos verticalmente */
+}
+
+body {
+  min-height: 100vh; /* La altura mínima abarca toda la ventana */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: #556B2F; /* Fondo verde olivo */
+  color: #FFFFFF; /* Texto blanco */
+  padding: 10px 20px;
+  text-align: center; /* Centra el contenido del header */
+}
+
+header .nav {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente los enlaces */
+  gap: 20px; /* Espaciado entre enlaces */
+}
+
+header .nav a {
+  color: #FFFFFF; /* Texto blanco */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header .nav a:hover {
+  color: #6B8E23; /* Color más claro al pasar el mouse */
+}
+
+.container {
+  flex: 1; /* Permite que el contenido principal llene el espacio disponible */
+  max-width: 960px; /* Máxima anchura */
+  margin: 20px auto; /* Centrado horizontal */
+  padding: 20px; /* Espaciado interno */
+  background-color: #FFFFFF; /* Fondo blanco */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+footer {
+  background: #556B2F; /* Fondo verde olivo */
+  color: #FFFFFF; /* Texto blanco */
+  text-align: center;
+  font-size: 0.9em;
+  padding: 10px; /* Espaciado interno */
+  margin-top: auto; /* Empuja el footer al fondo */
+}
+
+/* === Responsividad === */
+@media (max-width: 768px) {
+  header .nav {
+    flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+    gap: 10px; /* Espaciado reducido */
+  }
+
+  .container {
+    padding: 15px; /* Reduce el espaciado interno */
+    margin: 10px; /* Márgenes más pequeños */
+  }
+
+  footer {
+    font-size: 0.8em; /* Texto más pequeño en el footer */
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 10px; /* Ajusta el padding en headers */
+  }
+
+  header .nav a {
+    font-size: 0.9em; /* Reduce el tamaño de fuente de los enlaces */
+  }
+
+  .container {
+    padding: 10px; /* Reduce aún más el espaciado interno */
+    margin: 5px; /* Reduce márgenes */
+  }
+}
