@@ -5,7 +5,7 @@ import './Header.css';
 function Header() {
   return (
     <header className="header">
-      <h1>Biblioteca Online</h1>
+      <h1>La Biblioteca de Borges - Un espacio para los amantes de la lectura</h1>
       <nav className="nav">
         <Link to="/">Inicio</Link>
         <Link to="/books">Libros</Link>
